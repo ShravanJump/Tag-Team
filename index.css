@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html  body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1,7em;
+  background: linear-gradient(120deg,#025454,#f8f1f1);
+}
+a{
+  color:#333;
+  text-decoration: none;
+}
+h1,h2,h3 {
+  padding-bottom:20px;
+}
+
+p{
+  margin:10px 0;
+}
+
+/*Nav Bar*/
+#navbar{
+  background:#E57C23;
+  color:#fff;
+  overflow:auto;
+  position: sticky;
+}
+
+#navbar a{
+  color:#fff
+}
+
+#navbar h1{
+  float:left;
+  padding-top:20px;
+  padding-left: 20px;
+}
+
+#navbar ul{
+  list-style:none;
+  float:right;
+}
+
+#navbar ul li {
+float:left;
+}
+
+#navbar ul li a{
+  display:block;
+  padding:20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+  background:#e8aa42;
+  color:#f8f1f1;
+}
+
+.fliter_container{
+  background-image: url(/photos/7d5574129618065.616eeb838676c.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 600px;
+  background-size: 100%;
+}
+.fliter_container .fliter{
+  padding-top: 200px ;
+}
+.fliter_container h1,.fliter_container h2{
+  padding: 10px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#f8f1f1;
+}
+.fliter_container h1{
+  font-size: 70px;
+}
+.fliter_container{
+  font-size: 40px;
+}
+.places h2{
+ color: #025454;
+ padding: 10x;
+ padding-left: 20px;
+}
+
+.explore_images img{
+  padding: 15px;
+  width: 285px;
+  height: 180px;
+}
+
+.review{
+  padding: 20px;
+}
