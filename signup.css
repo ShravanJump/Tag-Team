@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient( #025464, #F8F1F1) ;
+    /*background-image: url("mara-conan-design-O_6dZUyxezo-unsplash.jpg");*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    button {
+      background-color: #E57C23;
+      color: white;
+      padding: 10px 16px;
+      margin: 8px 130px;
+      border: none;
+      cursor: pointer;
+      width: 50%;
+      opacity: 0.9;
+    }
+    
+    button:hover {
+      opacity:1;
+    }
