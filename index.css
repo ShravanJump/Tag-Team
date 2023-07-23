@@ -60,10 +60,10 @@ float:left;
 }
 
 .fliter_container{
-  background-image: url(/photos/7d5574129618065.616eeb838676c.jpg);
+  background-image: url(/photos/photo-1569428047118-ae9338065103.jpeg);
   background-repeat: no-repeat;
   width: auto;
-  height: 600px;
+  height: 550px;
   background-size: 100%;
 }
 .fliter_container .fliter{
@@ -81,18 +81,116 @@ float:left;
 .fliter_container{
   font-size: 40px;
 }
+
+.fliter_button{
+  margin: 0;
+  padding-left: 700px;
+}
+.fliter_btn{
+  border: hidden;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #E57C23;
+  font-size: 20px;
+}
+.fliter_btn:hover{
+  background-color: #e8aa42;
+}
+
 .places h2{
  color: #025454;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  padding: 10x;
  padding-left: 20px;
 }
 
-.explore_images img{
-  padding: 15px;
-  width: 285px;
-  height: 180px;
+.explore_images{
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "I1 I2 I3 I4 I5";
+}
+.item1{
+  grid-area: "I1";
+}
+.item2{
+  grid-area: "I2";
+}
+.item3{
+  grid-area: "I3";
+}
+.item4{
+  grid-area: "I4";
+}
+.item5{
+  grid-area: "I5";
 }
 
+.grid_img{
+  border-radius: 5px;
+}
+.grid_img:hover{
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+.bar {
+  position: relative;
+  width: 100%;
+  padding: 1% 1%;
+  background: linear-gradient(#E57C23,#e8aa42);
+  color: white;
+  font-family: Gelasio;
+  font-size: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.bar_content {
+  display: inline-block;
+  animation: move 20s linear infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes move {
+0% {
+  transform: translateX(100%);
+}
+100% {
+  transform: translateX(-100%);
+}
+}
 .review{
   padding: 20px;
+}
+
+footer {
+  background-color: #e8aa42;
+}
+.link_lists h3 {
+  margin-bottom: 10px;
+  color:#025454;
+}
+.link_lists ul {
+  list-style: none;
+}
+.link_lists ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.news_letter h3 {
+  margin-bottom: 10px;
+  color:#025454;
+}
+.news_letter input {
+  padding: 5px 40px;
+  margin-bottom: 10px;
+}
+.footer_container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon_container {
+  display: flex;
+  gap: 15px;
+  font-size: 32px;
 }

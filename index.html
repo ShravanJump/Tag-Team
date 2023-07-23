@@ -24,8 +24,10 @@
   </header>
   <section class="fliter_container">
     <div class="fliter">
-        <h1>Explore New Places With <span><i class="fa-solid fa-location-dot" style="color: #025464;"></i></span> <b style="color: #e8aa42;">BnB</b></h1>
-        <h2>Book Now!</h2>
+        <h1>Explore New Places With <span><i class="fa-solid fa-location-dot" style="color: #025464;"></i></span> <b style="color:#f8f1f1;">BnB</b></h1>
+        <div class="fliter_button">
+          <button class="fliter_btn" onclick="redirect()">Book Now!</button>
+        </div>
     </div>
   </section>
   <br><br>
@@ -33,18 +35,79 @@
     <div class=" place_image">
       <h2>Explore India!</h2>
       <div class="explore_images">
-        <img src="/photos/Sunset-AnantaraUluwataBaliResort-Bali-CRHotel.webp">
-        <img src="/photos/7d5574129618065.616eeb838676c.jpg">
-        <img src="/photos/dam-images-travel-hotel-pools-best-hotel-pools-09-france-h670.webp">
-        <img src="/photos/ERP_0547a_.webp">
-        <img src="/photos/rooftops_southbeach.jpg">
+        <div class="item1">
+          <img class="grid_img" onclick="redirect()" src="/photos/Sunset-AnantaraUluwataBaliResort-Bali-CRHotel.webp" style="width: 280px;height: 180px;">
+        </div>  
+        <div class="item2">
+          <img class="grid_img" onclick="redirect()" src="/photos/7d5574129618065.616eeb838676c.jpg" style="width: 280px;height: 180px;">
+        </div>
+        <div class="item3">
+          <img class="grid_img" onclick="redirect()" src="/photos/dam-images-travel-hotel-pools-best-hotel-pools-09-france-h670.webp" style="width: 280px;height: 180px;">
+        </div> 
+        <div class="item4"> 
+          <img class="grid_img" onclick="redirect()" src="/photos/ERP_0547a_.webp" style="width: 280px;height: 180px;">
+        </div>
+        <div class="item5">  
+          <img class="grid_img" onclick="redirect()" src="/photos/rooftops_southbeach.jpg" style="width: 280px;height: 180px;">  
+        </div>  
       </div>
     </div>
   </section>
-  <br><br><hr>
+  <br>
+  <div class="bar">
+    <span class="bar_content">
+      Get Unbeatable Prices! Book Now with Promo Code EXCITE25 for 25% Off.
+    </span>
+  </div>
+  <br><hr>
   <section class="review">
     <h1 style="color: #025464;">Customer Review</h1>
+
   </section>
+  <footer>
+    <div class="footer_container container">
+      <div class="footer_logo">
+        <h1 class="logo"><a href="index.html"><i class="fa-solid fa-location-dot" style="color: #025464;"></i> BnB</a></h1>
+      </div>
+      <div class="link_lists">
+        <h3>Download</h3>
+        <ul>
+          <li>Andriod App</li>
+          <li>iOS App</li>
+          <li>Web App</li>
+          <li>Company Policy</li>
+        </ul>
+      </div>
+      <div class="link_lists">
+        <h3>Help & Support</h3>
+        <ul>
+          <li>FAQs</li>
+          <li>About Us</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditons</li>
+        </ul>
+      </div>
+      <div class="news_letter">
+        <h3>Support</h3>
+        <input type="email" style="border-radius: 5px;" placeholder="Enter your Email...">
+        <h3>Follow Us</h3>
+        <div class="icon_container">
+          <div class="icon">
+            <i class="fa fa-facebook"></i>
+          </div>
+          <div class="icon">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </div>
+          <div class="icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </div>
+          <div class="icon">
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="./index.js"></script>
 </body>
 </html>
