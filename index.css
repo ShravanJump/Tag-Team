@@ -60,7 +60,7 @@ float:left;
 }
 
 .fliter_container{
-  background-image: url(/photos/photo-1569428047118-ae9338065103.jpeg);
+  background-image: url(photos/photo-1569428047118-ae9338065103.jpeg);
   background-repeat: no-repeat;
   width: auto;
   height: 550px;
@@ -139,7 +139,7 @@ float:left;
   padding: 1% 1%;
   background: linear-gradient(#E57C23,#e8aa42);
   color: white;
-  font-family: Gelasio;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   overflow: hidden;
   white-space: nowrap;
