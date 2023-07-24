@@ -3,8 +3,22 @@
 <head>
   <title>Sign Up Form</title>
   <link rel="stylesheet" href="./signup.css">
+  <script src="https://kit.fontawesome.com/3f0d53040b.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <header>
+    <nav id="navbar">
+    <div class="container">
+            <h1 class="logo"><a href="index.html"><i class="fa-solid fa-location-dot" style="color: #025464;"></i> BnB</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a class="current" href="signup.html"><i class="fa-regular fa-user"></i> Login</a></li>
+            </ul>
+          </div>
+        </nav> 
+</header>
   <div style=" background-color: white; width: 500px; margin: 100px auto; padding: 20px; border: 1px solid #000000; border-radius: 20px;">
     <h2 style="text-align: center;">Sign Up</h2>
     <form style="display: flex; flex-direction: column;" id="signupForm">
@@ -24,5 +38,49 @@
     </form>
   </div>
   <script src="signup.js"></script>
+  <footer>
+    <div class="footer_container container">
+      <div class="footer_logo">
+        <h1 class="logo"><a href="index.html"><i class="fa-solid fa-location-dot" style="color: #025464;"></i> BnB</a></h1>
+      </div>
+      <div class="link_lists">
+        <h3>Download</h3>
+        <ul>
+          <li>Andriod App</li>
+          <li>iOS App</li>
+          <li>Web App</li>
+          <li>Company Policy</li>
+        </ul>
+      </div>
+      <div class="link_lists">
+        <h3>Help & Support</h3>
+        <ul>
+          <li>FAQs</li>
+          <li>About Us</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditons</li>
+        </ul>
+      </div>
+      <div class="news_letter">
+        <h3>Support</h3>
+        <input type="email" style="border-radius: 5px;" placeholder="Enter your Email...">
+        <h3>Follow Us</h3>
+        <div class="icon_container">
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
