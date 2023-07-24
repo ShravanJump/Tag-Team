@@ -6,7 +6,7 @@
 html  body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1,7em;
-    background: linear-gradient(120deg,#025454,#f8f1f1);
+    background: linear-gradient(90deg,#e8aa42,#f8f1f1);
   }
   a{
     color:#333;
@@ -60,16 +60,51 @@ html  body{
 }
 .booking{
     max-width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
 }
 
-.hotel1,.hotel2,.hotel3,.hotel4,.hotel5{
+.hotel1,.hotel2,.hotel3,.hotel4,.hotel5,.hotel6,.hotel7,.hotel8{
     display: flex;
     gap:30px
 }
 .hotel_img img{
     height: 200px;
     width: 300px;
+}
+.hotel_img img:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+/*.hotel_btn{
+  display:flex;
+}*/
+.hotel_btn button,.hotel_btn h2{
+  float: right;
+  align-self: center;
+}
+.hotel_btn button{
+  padding: 6px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 4px; 
+}
+.hotel_btn button:hover{
+  background-color:chartreuse ;
+}
+.hotel_img{
+  width: 25%;
+}
+.hotel_btn{
+  width:15%;
+}
+.hotel_des{
+  width: 60%;
+}
+.hotel_des tag{
+  font-size: 14px;
+}
+.hotel_des h2{
+  font-size: 19px;
 }
 footer {
     background-color: #e8aa42;
@@ -103,3 +138,4 @@ footer {
     gap: 15px;
     font-size: 32px;
   }
+  
