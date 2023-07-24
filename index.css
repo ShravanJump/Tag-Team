@@ -63,7 +63,7 @@ float:left;
   background-image: url(photos/photo-1569428047118-ae9338065103.jpeg);
   background-repeat: no-repeat;
   width: auto;
-  height: 550px;
+  height: 585px;
   background-size: 100%;
 }
 .fliter_container .fliter{
@@ -196,7 +196,33 @@ float:left;
 .review{
   padding: 20px;
 }
-
+.reviews{
+  padding-left: 40px;
+  display: flex;
+  gap: 50px;
+  justify-content:center;
+}
+.review1{
+  width: 30%;
+}
+.review2{
+  width: 30%;
+}
+.review_img img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+#reviewbtn{
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  background-color: #e8aa42;
+  float: right;
+}
+#reviewbtn:hover{
+  background-color:#E57C23;
+}
 footer {
   background-color: #e8aa42;
 }
