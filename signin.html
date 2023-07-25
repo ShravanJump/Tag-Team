@@ -4,115 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGN IN </title>
-    <style>
-        body{
-            padding: 0;
-            margin: 0;
-            font-family: montserrat;
-            background:linear-gradient(0deg, white, #025464);
-            height: 100vh;
-            overflow: hidden;
-        }
-        .center{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 400px;
-            background-color: white ;
-            border-radius: 10px;
-            
-        }
-        .center h1{
-            text-align: center;
-            padding: 0 0 20px 0;
-            border-radius: 0 1px linear-gradient(0deg, white,#025464 );
-            
+    <link rel="stylesheet" href="signin.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3f0d53040b.js" crossorigin="anonymous"></script>
 
-        }
-        .center form{
-            padding: 0 40px;
-            box-sizing: border-box;
-        }
-        form .txt_field{
-            position: relative;
-            border-bottom: 2px solid #adadad;
-            margin: 30px 0;
-        }
-        .txt_field input{
-            width: 100%;
-            padding:0 5px;
-            height: 40px;
-            font-size: 16px;
-            border: none;
-            background: none;
-            outline: none;
-        }
-        .txt_field label{
-            position: absolute;
-            top: 50%;
-            left: 5px;
-            color: #adadad;
-            transform: translateY(-50%);
-            font-size: 16px;
-            pointer-events: none;
-            transition: .5s; 
-        }
-        .txt_field span::before{
-            content:'';
-            position: absolute;
-            top: 40px;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background: #E57C23;
-            transition: .5s;
-
-        }
-        .txt_field input:focus ~ label,
-        .txt_field input:valid ~ label{
-            top: -5px;
-            color:#E57C23;
-        }
-        .txt_field input:focus ~ span::before,
-        .txt_field input:valid ~ span::before{
-            width: 100%;
-        }
-        .pass{
-            margin: -5px 0 20px 5px;
-            color: #a6a6a6;
-            cursor: pointer;
-        }
-        .pass:hover{
-            text-decoration: underline;
-            
-        }
-        input[type="submit"]{
-            width: 100%;
-            height: 50px;
-            border: 1px solid;
-            background: linear-gradient(120deg,#E57C23,#E8AA42 );
-            border-radius: 0;
-            font-size: 18px;
-            font-weight: 200;
-        }
-        input[type="submit"]{
-            border-color: #E57C23;
-            transition: .5s;
-        }
-        .link{
-            margin: 30px 0;
-            text-align: center;
-            font-size: 16px;
-            color: #E8AA42;
-        }
-        .link a{
-            color: #E57C23;
-        }
-        
-    </style>
 </head>
 <body>
+  <header>
+    <nav id="navbar">
+    <div class="container">
+            <h1 class="logo"><a href="index.html"><i class="fa-solid fa-location-dot" style="color: #025464;"></i> BnB</a></h1>
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="Bookings/bookings.html">Bookings</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a class="current" href="signin"><i class="fa-regular fa-user"></i> Login</a></li>
+            </ul>
+          </div>
+        </nav> 
+  </header>
     <div class="center">
         <h1>LOGIN FORM</h1>
         <form method="post">
@@ -130,8 +43,56 @@
             <div class="link">
                 Not a member? <a href="#">Signup</a>
             </div>
-        </form>
-        
+          </form>
     </div>
+    <!--i made the container please remove all comments-->
+    <div class="blankcontainer">
+      <p></p>
+    </div>
+    <footer>
+        <div class="footer_container container">
+          <div class="footer_logo">
+            <h1 class="logo"><a href="index.html"><i class="fa-solid fa-location-dot" style="color: #025464;"></i> BnB</a></h1>
+          </div>
+          <div class="link_lists">
+            <h3>Download</h3>
+            <ul>
+              <li><a href="https://play.google.com/apps?hl=en">Andriod App</a></li>
+              <li><a href="https://www.apple.com/app-store/">iOS App</a></li>
+              <li><a href="https://azure.microsoft.com/en-in/products/app-service/web/">Web App</a></li>
+              <li><a href="Contactus.html">Company Policy</a></li>
+            </ul>
+          </div>
+          <div class="link_lists">
+            <h3>Help & Support</h3>
+            <ul>
+              <li><a href="Aboutus.html">FAQs</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="index.html">Privacy Policy</a></li>
+              <li><a href="index.html">Terms & Conditons</a></li>
+            </ul>
+          </div>
+          <div class="news_letter">
+            <h3>Support</h3>
+            <input type="email" style="border-radius: 5px;" placeholder="Enter your Email...">
+            <h3>Follow Us</h3>
+            <div class="icon_container">
+              <div class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="./signin.js"></script>
 </body>
 </html>
