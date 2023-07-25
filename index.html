@@ -18,10 +18,11 @@
         </h1>
         <ul>
           <li><a class="current" href="index.html">Home</a></li>
-          <li><a href="Bookings/bookings.html">Bookings</a></li>
+          <li><a href="bookings.html">Bookings</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="signin"><i class="fa-regular fa-user"></i> Login</a></li>
+          <li><a href="signin.html"><i class="fa-regular fa-user"></i> Login</a></li>
+          <li><a href="" onclick="logout()"> <i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
         </ul>
       </div>
     </nav>
@@ -45,7 +46,7 @@
               src="photos/hotel-j-p-international.jpg" style="width: 420px;height: 300px;"></abbr>
           <div class="room">
             <h2>Honeymoon Suite</h2>
-            <h3>Price:7599</h3><button>Book Now</button>
+            <h3>Price:7599</h3><button onclick="redirect()">Book Now</button>
           </div>
         </div>
         <div class="item2">
@@ -53,7 +54,7 @@
               src="photos/room01 (1).jpg" style="width: 420px;height: 300px;"></abbr>
               <div class="room">
               <h2>Premium Room</h2>
-              <h3>Price:5599</h3><button>Book Now</button>
+              <h3>Price:5599</h3><button onclick="redirect()">Book Now</button>
               </div>
         </div>
         <div class="item3">
@@ -61,7 +62,7 @@
               style="width: 420px;height: 300px;"></abbr>
               <div class="room">
               <h2>Standard Room</h2>
-              <h3>Price:2999</h3><button>Book Now</button>
+              <h3>Price:2999</h3><button onclick="redirect()">Book Now</button>
               </div>
         </div>
       </div>
@@ -196,7 +197,7 @@
       </div>
     </div>
   </footer>
-  <script src="./index.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>

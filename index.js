@@ -3,5 +3,13 @@ function openwebsite(){
 }
 
 function redirect(){
-    window.location.href="Bookings/bookings.html"
+    window.location.href="bookings.html"
+}
+function logout(){
+const token=localStorage.getItem('token');
+if(token){
+    localStorage.removeItem("token");
+    alert("You Are Logged Out");
+    window.location.href="index.html";
+}
 }
