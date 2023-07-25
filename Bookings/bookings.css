@@ -91,6 +91,9 @@ html  body{
 .hotel_btn button:hover{
   background-color:chartreuse ;
 }
+.hotel_img img{
+  border-radius: 13px;
+}
 .hotel_img{
   width: 25%;
 }

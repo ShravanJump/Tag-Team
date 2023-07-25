@@ -97,7 +97,7 @@ float:left;
   background-color: #e8aa42;
 }
 
-.places h2{
+.places h1{
  color:yellowgreen;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  padding: 10px;
@@ -105,10 +105,10 @@ float:left;
 }
 
 .explore_images{
-  padding: 10px;
+  padding: 35px;
   display: grid;
   gap: 10px;
-  grid-template-areas: "I1 I2 I3 I4 I5";
+  grid-template-areas: "I1 I2 I3 ";
 }
 .item1{
   grid-area: "I1";
@@ -119,18 +119,28 @@ float:left;
 .item3{
   grid-area: "I3";
 }
-.item4{
-  grid-area: "I4";
-}
-.item5{
-  grid-area: "I5";
-}
 
 .grid_img{
   border-radius: 5px;
 }
 .grid_img:hover{
   transform: scale(1.05);
+  transition: 0.7s;
+}
+.room h3{
+  font-size: 18px;
+}
+.room button, .room h3{
+  display: inline-block;
+}
+.room button{
+  background-color: #E57C23;
+  font-family: sans-serif;
+  padding:5px;
+  border-radius: 13px;
+}
+.room button:hover{
+  background-color: #e8aa42;
   transition: 0.7s;
 }
 .india h2{
@@ -140,7 +150,7 @@ float:left;
   padding-top: 10px;
   padding-left: 180px;
   padding-right:20px ;
-  background: linear-gradient(120deg,#E57C23,floralwhite,forestgreen);
+  background: linear-gradient(120deg,#E57C23,#025454);
 }
 .india_images{
   padding: 10px;
@@ -222,6 +232,15 @@ float:left;
 }
 #reviewbtn:hover{
   background-color:#E57C23;
+}
+.location_des h2{
+  font-family:serif;
+  font-size: 30px;
+  padding-left: 220px;
+}
+.map{
+  padding-left: 200px;
+  padding-bottom: 30px;
 }
 footer {
   background-color: #e8aa42;

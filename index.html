@@ -1,56 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BnB.com</title>
-    <script src="https://kit.fontawesome.com/3f0d53040b.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="">
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BnB.com</title>
+  <script src="https://kit.fontawesome.com/3f0d53040b.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="">
+  <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
   <header>
     <nav id="navbar">
-    <div class="container">
-            <h1 class="logo"><a href="index.html"><i class="fa-solid fa-location-dot" style="color: #025464;"></i> BnB</a></h1>
-            <ul>
-                <li><a class="current" href="index.html">Home</a></li>
-                <li><a href="Bookings/bookings.html">Bookings</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="signin"><i class="fa-regular fa-user"></i> Login</a></li>
-            </ul>
-          </div>
-        </nav> 
+      <div class="container">
+        <h1 class="logo"><a href="index.html"><i class="fa-solid fa-location-dot" style="color: #025464;"></i> BnB</a>
+        </h1>
+        <ul>
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a href="Bookings/bookings.html">Bookings</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="signin"><i class="fa-regular fa-user"></i> Login</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
   <section class="fliter_container">
     <div class="fliter">
-        <h1>Explore New Places With <span><i class="fa-solid fa-location-dot" style="color: #025464;"></i></span> <b style="color:#f8f1f1;">BnB</b></h1>
-        <div class="fliter_button">
-          <button class="fliter_btn" onclick="redirect()">Book Now!</button>
-        </div>
+      <h1>Enjoy Excellence with<span><i class="fa-solid fa-location-dot" style="color: #025464;"></i></span> <b
+          style="color:#f8f1f1;">BnB</b></h1>
+      <div class="fliter_button">
+        <button class="fliter_btn" onclick="redirect()">Book Now!</button>
+      </div>
     </div>
   </section>
   <br><br>
   <section class="places">
     <div class=" place_image">
-      <h2><b>Popular Hotels on Bnb</b></h2>
+      <h1><b>Rooms nd Suits</b></h1>
       <div class="explore_images">
         <div class="item1">
-          <abbr title="Novotel Mumbai Juhu Beach"><img class="grid_img" onclick="redirect()" src="photos/252005217.jpg" style="width: 280px;height: 180px;"></abbr>
-        </div> 
+          <abbr title="Honeymoon Suite"><img class="grid_img" onclick="redirect()"
+              src="photos/hotel-j-p-international.jpg" style="width: 420px;height: 300px;"></abbr>
+          <div class="room">
+            <h2>Honeymoon Suite</h2>
+            <h3>Price:7599</h3><button>Book Now</button>
+          </div>
+        </div>
         <div class="item2">
-          <abbr title="Bhagini Icon Premier Hotel"><img class="grid_img" onclick="redirect()" src="photos/278273077.jpg" style="width: 280px;height: 180px;"></abbr>
+          <abbr title="Premium Room"><img class="grid_img" onclick="redirect()"
+              src="photos/room01 (1).jpg" style="width: 420px;height: 300px;"></abbr>
+              <div class="room">
+              <h2>Premium Room</h2>
+              <h3>Price:5599</h3><button>Book Now</button>
+              </div>
         </div>
         <div class="item3">
-          <abbr title="Welcomhotel by ITC New Delhi"><img class="grid_img" onclick="redirect()" src="photos/30393271.jpg" style="width: 280px;height: 180px;"></abbr>
-        </div> 
-        <div class="item4"> 
-          <abbr title="Alvorada Resort Goa"><img class="grid_img" onclick="redirect()" src="photos/327229428.jpg" style="width: 280px;height: 180px;"></abbr>
+          <abbr title="Standard Room"><img class="grid_img" onclick="redirect()" src="photos/room01.jpg"
+              style="width: 420px;height: 300px;"></abbr>
+              <div class="room">
+              <h2>Standard Room</h2>
+              <h3>Price:2999</h3><button>Book Now</button>
+              </div>
         </div>
-        <div class="item5">  
-          <abbr title="Ronnie's Studio Apartment"><img class="grid_img" onclick="redirect()" src="photos/374987469.jpg" style="width: 280px;height: 180px;"></abbr>
-        </div>  
       </div>
     </div>
   </section>
@@ -63,22 +76,28 @@
   <br><br>
   <section class="india">
     <div class=" india_image">
-      <h2><b>Explore India</b></h2><br>
+      <h2><b>Gallery</b></h2><br>
       <div class="india_images">
         <div class="item6">
-          <abbr title="Delhi"><img class="grid_img" onclick="redirect()" src="photos/New-Delhi-India-War-Memorial-arch-Sir.webp" style="width: 300px;height: 200px;"></abbr>
+          <abbr title="Premium Transport"><img class="grid_img" onclick="redirect()"
+              src="photos/lobby-3_standard.jpg" style="width: 312px;height: 215px;"></abbr>
         </div>
         <div class="item7">
-          <abbr title="Bangalore"><img class="grid_img" onclick="redirect()" src="photos/9483508eeee2b78a7356a15ed9c337a1-bengaluru-bangalore.jpg" style="width: 250px;height: 420px;"></abbr>
+          <abbr title="Fine Dine"><img class="grid_img" onclick="redirect()"
+              src="photos/photo03.jpg"
+              style="width: 300px;height: 450px;"></abbr>
         </div>
-        <div class="item8">  
-          <abbr title="Chennai"><img class="grid_img" onclick="redirect()" src="photos/temples-To-Visit-In-Chennai.jpg" style="width: 300px;height: 200px;"></abbr>
+        <div class="item8">
+          <abbr title="Swimming Pool"><img class="grid_img" onclick="redirect()" src="photos/327229428.jpg"
+              style="width: 312px;height: 215px;"></abbr>
         </div>
         <div class="item9">
-          <abbr title="Mumbai"><img class="grid_img" onclick="redirect()" src="photos/image.jpg" style="width: 300px;height: 200px;"></abbr>
-        </div> 
-        <div class="item10"> 
-          <abbr title="Goa"><img class="grid_img" onclick="redirect()" src="photos/GettyRF_157579910.jpg" style="width: 300px;height: 200px;"></abbr>
+          <abbr title="Spa"><img class="grid_img" onclick="redirect()" src="photos/spa.jpg"
+              style="width: 312px;height: 215px;"></abbr>
+        </div>
+        <div class="item10">
+          <abbr title="Common Gym"><img class="grid_img" onclick="redirect()" src="photos/best-hotels-to-work-outevenhotel-1504048975.jpg"
+              style="width: 312px;height: 215px;"></abbr>
         </div>
       </div>
     </div>
@@ -87,40 +106,51 @@
   <section class="review">
     <h1 style="color: #025464;">Customer Review</h1>
     <div class="reviews">
-    <div class="review1">
-      <div class="review_img">
-        <img src="photos/WhatsApp Image 2023-07-25 at 01.00.47.jpg"> <tag> Mohan</tag><tag>(Maharastra,India)</tag>
+      <div class="review1">
+        <div class="review_img">
+          <img src="photos/WhatsApp Image 2023-07-25 at 01.00.47.jpg">
+          <tag> Mohan</tag>
+          <tag>(Maharastra,India)</tag>
+        </div>
+        <div class="review_des">
+          <p>Everything was good.Food was delicious and the rooms were spacious and comfortable.I got such a great hotel
+            in cheap prices.</p>
+        </div>
       </div>
-      <div class="review_des">
-        <p>Everything was good.Food was delicious and the rooms were spacious and comfortable.I got such a great hotel in cheap pices.</p>
-        <p><mark>Hotel</mark> : LEELA AMBIENCE CONVENTION HOTELS</p>
+      <div class="review2">
+        <div class="review_img">
+          <img src="photos/WhatsApp Image 2023-07-25 at 01.01.49.jpg">
+          <tag>Naseem(Bihar,India)</tag>
+        </div>
+        <div class="review_des">
+          <p>Our stay was very pleasant.Taken Care of and Hospitality</p><br><br>
+        </div>
       </div>
-    </div>
-    <div class="review2">
-      <div class="review_img">
-        <img src="photos/WhatsApp Image 2023-07-25 at 01.01.49.jpg"><tag>Naseem(Bihar,India)</tag>
+      <div class="review2">
+        <div class="review_img">
+          <img src="photos/images.png">
+          <tag>Sharma(Delhi,India)</tag>
+        </div>
+        <div class="review_des">
+          <p>I loved my stay here.Will sure Recommend.</p><br><br>
+        </div>
       </div>
-      <div class="review_des">
-        <p>Our stay was very pleasant.Taken Care of and Hospitality</p><br><br>
-        <p><mark>Hotel</mark>:PALM EVERLAND</p>
-      </div>
-    </div>
-    <div class="review2">
-      <div class="review_img">
-        <img src="photos/images.png"><tag>Sharma(Delhi,India)</tag>
-      </div>
-      <div class="review_des">
-        <p>Need Improvement in Services.</p><br><br>
-        <p><mark>Hotel</mark>:ROONIE's STUDIO APARTMENT</p>
-      </div>
-    </div>
-  </div><br>
-  <button id="reviewbtn">Read More Reviews</button><br><br>
+    </div><br>
+    <button id="reviewbtn">Read More Reviews</button><br><br>
   </section>
+  <div class="location">
+    <div class="location_des">
+      <h2>We will be Wating <i class="fa-solid fa-location-dot" style="color:red;"></i></h2>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.138569672815!2d85.81114779678954!3d20.29453070000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d030000001%3A0xf13f3028066256da!2sBNB%20Land%20Consultancy%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1690273472211!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
   <footer>
     <div class="footer_container container">
       <div class="footer_logo">
-        <h1 class="logo"><a href="index.html"><i class="fa-solid fa-location-dot" style="color: #025464;"></i> BnB</a></h1>
+        <h1 class="logo"><a href="index.html"><i class="fa-solid fa-location-dot" style="color: #025464;"></i> BnB</a>
+        </h1>
       </div>
       <div class="link_lists">
         <h3>Download</h3>
@@ -142,7 +172,7 @@
       </div>
       <div class="news_letter">
         <h3>Support</h3>
-        <input type="email" style="border-radius: 5px;" placeholder="Enter your Email...">
+        <input type="email" style="border-radius: 5px;" placeholder="Enter your Email..."> <i class="fa-regular fa-envelope fa-xl"></i>
         <h3>Follow Us</h3>
         <div class="icon_container">
           <div class="icon">
@@ -152,7 +182,7 @@
             <i class="fa-brands fa-twitter"></i>
           </div>
           <div class="icon">
-            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-insh3ram"></i>
           </div>
           <div class="icon">
             <i class="fa-brands fa-youtube"></i>
@@ -163,4 +193,5 @@
   </footer>
   <script src="./index.js"></script>
 </body>
+
 </html>
