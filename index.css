@@ -98,7 +98,30 @@ float:left;
 .fliter_btn:hover{
   background-color: #e8aa42;
 }
-
+.abtus{
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  gap: 35px;
+}
+.abtus_des{
+  width: 45%;
+  background-color: #f8f1f1;
+  padding: 12px;
+} 
+.abtus_img img{
+  width: 325px;
+  height: 325px;
+}
+.abtus button{
+  padding: 12px;
+  background-color: cornflowerblue;
+  float: right;
+}
+.abtus button:hover{
+  background-color:darkturquoise;
+  transition: 1s ease-in-out;
+}
 .places h1{
  color:darkmagenta;
  font-size:xx-large;
@@ -207,7 +230,7 @@ float:left;
 }
 }
 .review{
-  padding: 20px;
+  padding: 30px;
 }
 .reviews{
   padding-left: 40px;
@@ -228,15 +251,19 @@ float:left;
   height: 40px;
   border-radius: 20px;
 }
+.review_btn{
+  top: 50%;
+  left: 50%;
+}
 #reviewbtn{
   border-radius: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
   background-color: #e8aa42;
-  float: right;
 }
 #reviewbtn:hover{
   background-color:#E57C23;
+  transition: 0.7s;
 }
 .location_des h2{
   font-family:serif;

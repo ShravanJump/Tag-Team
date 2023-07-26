@@ -3,7 +3,10 @@ function openwebsite(){
 }
 
 function redirect(){
-    window.location.href="bookings.html"
+    window.location.href="bookings.html";
+}
+function abtus(){
+    window.location.href="finalabtus.html";
 }
 function logout(){
 const token=localStorage.getItem('token');
