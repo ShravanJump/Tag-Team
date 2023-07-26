@@ -15,3 +15,6 @@ function logout(){
         window.location.href="index.html";
     }
 }
+function bill(){
+    window.location.href="bill.html";
+}
