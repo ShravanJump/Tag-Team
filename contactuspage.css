@@ -1,9 +1,9 @@
 
-
 * {
     padding: 0;
     margin: 0;
     color: #001C30;
+    font-family: montserrat;
 }
 a{
     color:#333;
@@ -11,9 +11,14 @@ a{
   }
 
 .main {
-    background: linear-gradient(0deg, white, #025464);
-    width: 100vw;
+    background: #025454;
     height: 80vh;
+    background-color: antiquewhite;
+    border: 15px solid #001C30;
+    padding: 50px;
+    margin: 20px;  
+    align-items: center;
+    text-align: center;
 }
 .container header h1{
     text-align: center;
@@ -66,7 +71,7 @@ a{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -74,18 +79,19 @@ a{
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .address {
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 .formDetails {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     width: 100%;
 
 }
@@ -103,7 +109,7 @@ a{
 }
 
 form {
-    width: 100%;
+    width: 80%;
 }
 
 .form {
@@ -116,14 +122,14 @@ form {
 .contact-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: 2vh 0;
     width: 100%;
 }
 
 .contact-form input {
     width: 70%;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .contact-form textarea {
