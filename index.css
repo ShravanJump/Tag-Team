@@ -219,7 +219,7 @@ float:left;
 }
 .bar_content {
   display: inline-block;
-  animation: move 20s linear infinite;
+  animation: move 10s linear infinite;
   animation-fill-mode: forwards;
 }
 @keyframes move {
